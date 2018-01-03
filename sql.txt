@@ -1,0 +1,7 @@
+create table dept (
+did int primary key,
+dname varchar(20),
+budget real,
+managerid int not null,
+foreign key (managerid)
+references emp)
